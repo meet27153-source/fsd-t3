@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-dark fixed-top" id="scroller">
+            <div class="container-fluid">
+                <ul class="navbar-nav nav-pills-m2">
+                    <li class="navbar-brand">
+                        <!-- <a class="navbar-brand" href="#">LOGO</a> -->
+                        <img src="apple.png" height="80px" class="rounded-pill">
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Section1" class="nav-link active text-white">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Section2" class="nav-link text-white">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Section3" class="nav-link text-white">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div data-bs-spy="scroll" data-bs-targer="#scroller">
+            <div class="container-fluid bg-success text-white" id="Section1" style="height:800px;padding:100px">Home</div>
+            <div class="container-fluid bg-warning text-white" id="Section2" style="height:800px;padding:100px">About</div>
+            <div class="container-fluid bg-info text-white" id="Section3" style="height:800px;padding:100px">Contact</div>
+        </div>
+    </body>
+</html>
